@@ -12,5 +12,8 @@ class Student {
 	showDetails()  
     {  
         console.log(this.RollNo + " : " + this.EmpName);  
-    }  
+    } 
 }
+
+let obj = new Student("Sai" , 001); 
+    obj.showDetails();

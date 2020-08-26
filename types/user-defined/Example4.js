@@ -8,3 +8,5 @@ var Student = /** @class */ (function () {
     };
     return Student;
 }());
+var obj = new Student("Sai", 001);
+obj.showDetails();
